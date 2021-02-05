@@ -13,8 +13,8 @@ export class Birds extends Sprite{
         // 小鸟的宽34 高24 上下边距10 左右边距9
         this.clippingX = [9, 9+34+18, 9+34+18+34+18];//裁剪的x坐标
         this.clippingY = [10,10,10];//裁剪的y坐标
-        this.clippingWidth = [34,34,34];//裁剪的高度
-        this.clippingHeight = [24,24,24];//裁剪的宽度
+        this.clippingWidth = [34,34,34];//裁剪的宽度
+        this.clippingHeight = [24,24,24];//裁剪的高度
         let canvas = DataStore.getInstance().canvas;
         let birdsX = canvas.width/4;//小鸟在画布上的初始x坐标
         this.birdsX = [birdsX,birdsX,birdsX];
